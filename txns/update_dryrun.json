@@ -2,8 +2,8 @@
   "accounts": [
     {
       "address": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
-      "amount": 65157583,
-      "amount-without-pending-rewards": 65157583,
+      "amount": 65150583,
+      "amount-without-pending-rewards": 65150583,
       "apps-local-state": [
         {
           "id": 67119462,
@@ -43,7 +43,7 @@
           "is-frozen": false
         },
         {
-          "amount": 1000000000,
+          "amount": 999999980,
           "asset-id": 91697272,
           "is-frozen": false
         }
@@ -60,12 +60,12 @@
         {
           "id": 92065044,
           "params": {
-            "approval-program": "BiADAQACJgEBbjEZIxJAACExGSISQAEDMRkkEkAA+TEZgQQSQADhMRmBBRJAANlCAOw2GgCABnVwZGF0ZRJAAF02GgCABHN3YXASQAC3NhoAgARzZW5kEkAAA0IAwEIAvSMoZUiJIzUKiP/1NQ80D0EAKihpKDQKFlcHAVA1EDQQZDUMNBBpNAxpNAoiCDQPDEEACTQKIgg1CkL/2IkyCTEAEkQyBCISRIj/uigxGyIJJApnIzUOIzUKNAokCyIINQs0C8AaNQw0CyIIwBoXNQ00DTQOCDUONAw0DWcoNAoWVwcBUDQMZzQLJAgxGwxBAAk0CiIINQpC/780DoGQThJEQgAbQgAYMgQiEjIJMQASEEAAC0IABkIAA0IAAiNDIkM=",
+            "approval-program": "BiAEAQACBCYBAW4xGSMSQAAgMRkiEkABMTEZJBJAAScxGSUSQAESMRmBBRJAAQpCARs2GgCABnVwZGF0ZRJAAHI2GgCABHN3YXASQAAiNhoAgAh3aXRoZHJhdxJAABQ2GgCABW9wdGluEkAArUIA3UIA3EIA1yMoZUiJIzUKiP/1NQ80D0EAKihpKDQKFlcHAVA1EDQQZDUMNBBpNAxpNAoiCDQPDEEACTQKIgg1CkL/2IkyCTEAEkQyBCISRIj/uigxGyIJJApnIzUOIzUKNAokCyIINQs0C8AaNQw0CyIIwBoXNQ00DTQOCDUONAw0DWcoNAoWVwcBUDQMZzQLJAgxGwxBAAk0CiIINQpC/780DoGQThJEQgA1MgQiEkQyCTEAEkSxJbIQMgqyFCOyEjYwALIRs0IAFjIEIhJEMgkxABJEQgAIQgADQgACI0MiQw==",
             "clear-state-program": "BoEB",
             "creator": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
             "global-state": [
               {
-                "key": "OTE2OTcyNzI=",
+                "key": "MA==",
                 "value": {
                   "bytes": "",
                   "type": 2,
@@ -73,7 +73,7 @@
                 }
               },
               {
-                "key": "MA==",
+                "key": "OTE2OTcyNzI=",
                 "value": {
                   "bytes": "",
                   "type": 2,
@@ -89,17 +89,17 @@
                 }
               },
               {
-                "key": "bgE=",
+                "key": "bgA=",
                 "value": {
-                  "bytes": "OTE2OTcyNzI=",
+                  "bytes": "MA==",
                   "type": 1,
                   "uint": 0
                 }
               },
               {
-                "key": "bgA=",
+                "key": "bgE=",
                 "value": {
-                  "bytes": "MA==",
+                  "bytes": "OTE2OTcyNzI=",
                   "type": 1,
                   "uint": 0
                 }
@@ -163,7 +163,7 @@
       "pending-rewards": 0,
       "reward-base": 27521,
       "rewards": 0,
-      "round": 21808307,
+      "round": 21814611,
       "status": "Offline",
       "total-apps-opted-in": 3,
       "total-assets-opted-in": 3,
@@ -172,16 +172,23 @@
     },
     {
       "address": "D5CHP2N2ZH4DW7MJIJT3AXIIV2XYCCZHP5CZJIWRPENDEEBPV53CTELJ64",
-      "amount": 0,
-      "amount-without-pending-rewards": 0,
-      "min-balance": 100000,
+      "amount": 9999000,
+      "amount-without-pending-rewards": 9999000,
+      "assets": [
+        {
+          "amount": 20,
+          "asset-id": 91697272,
+          "is-frozen": false
+        }
+      ],
+      "min-balance": 200000,
       "pending-rewards": 0,
       "reward-base": 27521,
       "rewards": 0,
-      "round": 21808307,
+      "round": 21814611,
       "status": "Offline",
       "total-apps-opted-in": 0,
-      "total-assets-opted-in": 0,
+      "total-assets-opted-in": 1,
       "total-created-apps": 0,
       "total-created-assets": 0
     }
@@ -190,12 +197,12 @@
     {
       "id": 92065044,
       "params": {
-        "approval-program": "BiADAQACJgEBbjEZIxJAACExGSISQAEDMRkkEkAA+TEZgQQSQADhMRmBBRJAANlCAOw2GgCABnVwZGF0ZRJAAF02GgCABHN3YXASQAC3NhoAgARzZW5kEkAAA0IAwEIAvSMoZUiJIzUKiP/1NQ80D0EAKihpKDQKFlcHAVA1EDQQZDUMNBBpNAxpNAoiCDQPDEEACTQKIgg1CkL/2IkyCTEAEkQyBCISRIj/uigxGyIJJApnIzUOIzUKNAokCyIINQs0C8AaNQw0CyIIwBoXNQ00DTQOCDUONAw0DWcoNAoWVwcBUDQMZzQLJAgxGwxBAAk0CiIINQpC/780DoGQThJEQgAbQgAYMgQiEjIJMQASEEAAC0IABkIAA0IAAiNDIkM=",
+        "approval-program": "BiAEAQACBCYBAW4xGSMSQAAgMRkiEkABMTEZJBJAAScxGSUSQAESMRmBBRJAAQpCARs2GgCABnVwZGF0ZRJAAHI2GgCABHN3YXASQAAiNhoAgAh3aXRoZHJhdxJAABQ2GgCABW9wdGluEkAArUIA3UIA3EIA1yMoZUiJIzUKiP/1NQ80D0EAKihpKDQKFlcHAVA1EDQQZDUMNBBpNAxpNAoiCDQPDEEACTQKIgg1CkL/2IkyCTEAEkQyBCISRIj/uigxGyIJJApnIzUOIzUKNAokCyIINQs0C8AaNQw0CyIIwBoXNQ00DTQOCDUONAw0DWcoNAoWVwcBUDQMZzQLJAgxGwxBAAk0CiIINQpC/780DoGQThJEQgA1MgQiEkQyCTEAEkSxJbIQMgqyFCOyEjYwALIRs0IAFjIEIhJEMgkxABJEQgAIQgADQgACI0MiQw==",
         "clear-state-program": "BoEB",
         "creator": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
         "global-state": [
           {
-            "key": "OTE2OTcyNzI=",
+            "key": "MA==",
             "value": {
               "bytes": "",
               "type": 2,
@@ -203,15 +210,7 @@
             }
           },
           {
-            "key": "bgA=",
-            "value": {
-              "bytes": "MA==",
-              "type": 1,
-              "uint": 0
-            }
-          },
-          {
-            "key": "MA==",
+            "key": "OTE2OTcyNzI=",
             "value": {
               "bytes": "",
               "type": 2,
@@ -224,6 +223,14 @@
               "bytes": "",
               "type": 2,
               "uint": 2
+            }
+          },
+          {
+            "key": "bgA=",
+            "value": {
+              "bytes": "MA==",
+              "type": 1,
+              "uint": 0
             }
           },
           {
@@ -242,26 +249,30 @@
       }
     }
   ],
-  "latest-timestamp": 1653491571,
+  "latest-timestamp": 1653518237,
   "protocol-version": "https://github.com/algorandfoundation/specs/tree/d5ac876d7ede07367dbaa26e149aa42589aac1f7",
-  "round": 21808307,
+  "round": 21814611,
   "sources": null,
   "txns": [
     {
   "txn": {
     "apaa": [
       "dXBkYXRl",
-      "MA==",
-      "AAAAAAAAE4g=",
       "OTE2OTcyNzI=",
+      "AAAAAAAAE4g=",
+      "MA==",
       "AAAAAAAAE4g="
+    ],
+    "apas": [
+      91697272,
+      0
     ],
     "apid": 92065044,
     "fee": 1000,
-    "fv": 21808308,
+    "fv": 21814611,
     "gh": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
-    "lv": 21809308,
-    "note": "GLIv4O7pncE=",
+    "lv": 21815611,
+    "note": "ohTIPmNx0PM=",
     "snd": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
     "type": "appl"
   }

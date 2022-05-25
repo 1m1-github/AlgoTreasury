@@ -1,0 +1,155 @@
+{
+  "accounts": [
+    {
+      "address": "NVVMVMEFGTLIVW3YL6R7ADZAWU66HUBNHI6OH264U5YKVZVPG67EMB5EWM",
+      "amount": 1957950,
+      "amount-without-pending-rewards": 1957950,
+      "apps-local-state": [
+        {
+          "id": 92065044,
+          "schema": {
+            "num-byte-slice": 0,
+            "num-uint": 0
+          }
+        }
+      ],
+      "assets": [
+        {
+          "amount": 0,
+          "asset-id": 91697272,
+          "is-frozen": false
+        }
+      ],
+      "min-balance": 300000,
+      "pending-rewards": 0,
+      "reward-base": 27521,
+      "rewards": 0,
+      "round": 21814419,
+      "status": "Offline",
+      "total-apps-opted-in": 1,
+      "total-assets-opted-in": 1,
+      "total-created-apps": 0,
+      "total-created-assets": 0
+    },
+    {
+      "address": "D5CHP2N2ZH4DW7MJIJT3AXIIV2XYCCZHP5CZJIWRPENDEEBPV53CTELJ64",
+      "amount": 9999000,
+      "amount-without-pending-rewards": 9999000,
+      "assets": [
+        {
+          "amount": 20,
+          "asset-id": 91697272,
+          "is-frozen": false
+        }
+      ],
+      "min-balance": 200000,
+      "pending-rewards": 0,
+      "reward-base": 27521,
+      "rewards": 0,
+      "round": 21814419,
+      "status": "Offline",
+      "total-apps-opted-in": 0,
+      "total-assets-opted-in": 1,
+      "total-created-apps": 0,
+      "total-created-assets": 0
+    }
+  ],
+  "apps": [
+    {
+      "id": 92065044,
+      "params": {
+        "approval-program": "BiAEAQACBCYBAW4xGSMSQAAgMRkiEkABMTEZJBJAAScxGSUSQAESMRmBBRJAAQpCARs2GgCABnVwZGF0ZRJAAHI2GgCABHN3YXASQAAiNhoAgAh3aXRoZHJhdxJAABQ2GgCABW9wdGluEkAArUIA3UIA3EIA1yMoZUiJIzUKiP/1NQ80D0EAKihpKDQKFlcHAVA1EDQQZDUMNBBpNAxpNAoiCDQPDEEACTQKIgg1CkL/2IkyCTEAEkQyBCISRIj/uigxGyIJJApnIzUOIzUKNAokCyIINQs0C8AaNQw0CyIIwBoXNQ00DTQOCDUONAw0DWcoNAoWVwcBUDQMZzQLJAgxGwxBAAk0CiIINQpC/780DoGQThJEQgA1MgQiEkQyCTEAEkSxJbIQMgqyFCOyEjYwALIRs0IAFjIEIhJEMgkxABJEQgAIQgADQgACI0MiQw==",
+        "clear-state-program": "BoEB",
+        "creator": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
+        "global-state": [
+          {
+            "key": "OTE2OTcyNzI=",
+            "value": {
+              "bytes": "",
+              "type": 2,
+              "uint": 5000
+            }
+          },
+          {
+            "key": "bg==",
+            "value": {
+              "bytes": "",
+              "type": 2,
+              "uint": 2
+            }
+          },
+          {
+            "key": "bgA=",
+            "value": {
+              "bytes": "MA==",
+              "type": 1,
+              "uint": 0
+            }
+          },
+          {
+            "key": "MA==",
+            "value": {
+              "bytes": "",
+              "type": 2,
+              "uint": 5000
+            }
+          },
+          {
+            "key": "bgE=",
+            "value": {
+              "bytes": "OTE2OTcyNzI=",
+              "type": 1,
+              "uint": 0
+            }
+          }
+        ],
+        "global-state-schema": {
+          "num-byte-slice": 3,
+          "num-uint": 4
+        }
+      }
+    }
+  ],
+  "latest-timestamp": 1653517423,
+  "protocol-version": "https://github.com/algorandfoundation/specs/tree/d5ac876d7ede07367dbaa26e149aa42589aac1f7",
+  "round": 21814419,
+  "sources": null,
+  "txns": [
+    {
+  "sig": "lP4ozVdPeuve6YeeF4CSMOmAxhnyvEOmxx0hmwjAFZecjYjmDHcjOgBSLhTslGLTKAQd1z2iCedqUSAweyBLAw==",
+  "txn": {
+    "amt": 1000000,
+    "fee": 1000,
+    "fv": 21814420,
+    "gen": "testnet-v1.0",
+    "gh": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+    "grp": "cA3vaPU0imB6uVWnPtFbzBVS1z0Y2p79eK0WcySHTaM=",
+    "lv": 21815420,
+    "note": "2wofWfA/LRU=",
+    "rcv": "D5CHP2N2ZH4DW7MJIJT3AXIIV2XYCCZHP5CZJIWRPENDEEBPV53CTELJ64",
+    "snd": "NVVMVMEFGTLIVW3YL6R7ADZAWU66HUBNHI6OH264U5YKVZVPG67EMB5EWM",
+    "type": "pay"
+  }
+},
+    {
+  "sig": "wkVYwf4k3mDBDbbosz+MdMESWE6By13+ztIP2iyonRWii+RWoS6BD9dTDJQ/iOS5Jb2wimfMfg7TLwJytgMzBA==",
+  "txn": {
+    "apaa": [
+      "c3dhcA=="
+    ],
+    "apas": [
+      91697272
+    ],
+    "apid": 92065044,
+    "fee": 1000,
+    "fv": 21814420,
+    "gh": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
+    "grp": "cA3vaPU0imB6uVWnPtFbzBVS1z0Y2p79eK0WcySHTaM=",
+    "lv": 21815420,
+    "note": "0j6Un5X+Y+A=",
+    "snd": "NVVMVMEFGTLIVW3YL6R7ADZAWU66HUBNHI6OH264U5YKVZVPG67EMB5EWM",
+    "type": "appl"
+  }
+}
+  ]
+}
