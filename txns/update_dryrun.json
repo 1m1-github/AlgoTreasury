@@ -2,8 +2,8 @@
   "accounts": [
     {
       "address": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
-      "amount": 65150583,
-      "amount-without-pending-rewards": 65150583,
+      "amount": 65147583,
+      "amount-without-pending-rewards": 65147583,
       "apps-local-state": [
         {
           "id": 67119462,
@@ -46,6 +46,11 @@
           "amount": 999999980,
           "asset-id": 91697272,
           "is-frozen": false
+        },
+        {
+          "amount": 1000000000,
+          "asset-id": 92125658,
+          "is-frozen": false
         }
       ],
       "created-apps": [
@@ -60,7 +65,7 @@
         {
           "id": 92065044,
           "params": {
-            "approval-program": "BiAEAQACBCYBAW4xGSMSQAAgMRkiEkABMTEZJBJAAScxGSUSQAESMRmBBRJAAQpCARs2GgCABnVwZGF0ZRJAAHI2GgCABHN3YXASQAAiNhoAgAh3aXRoZHJhdxJAABQ2GgCABW9wdGluEkAArUIA3UIA3EIA1yMoZUiJIzUKiP/1NQ80D0EAKihpKDQKFlcHAVA1EDQQZDUMNBBpNAxpNAoiCDQPDEEACTQKIgg1CkL/2IkyCTEAEkQyBCISRIj/uigxGyIJJApnIzUOIzUKNAokCyIINQs0C8AaNQw0CyIIwBoXNQ00DTQOCDUONAw0DWcoNAoWVwcBUDQMZzQLJAgxGwxBAAk0CiIINQpC/780DoGQThJEQgA1MgQiEkQyCTEAEkSxJbIQMgqyFCOyEjYwALIRs0IAFjIEIhJEMgkxABJEQgAIQgADQgACI0MiQw==",
+            "approval-program": "BiAEAQAEAiYBAW4xGSMSQAAgMRkiEkAB4zEZJRJAAdkxGSQSQAHEMRmBBRJAAbxCAc02GgCABnVwZGF0ZRJAASg2GgCABHN3YXASQABDNhoAgAh3aXRoZHJhdxJAALc2GgCABW9wdGluEkABX0IBjzIKTElBAANCAANIYIlwAEiJNAxBAANCAAQzAAiJMwASiTIEJRJEMRYiEkQzABE1DDYwADURI4gAqmQ1EjQSNAwSNBI0ERIbRDQMiP+zNQA0EYj/rDUBNAxkNQI0EWQ1A4j/rjUEIjQANAQINAAKNAI0AwqUCTQBCzUFNBFBAANCABCxIrIQMQCyBzQFsgizQgD/sSSyEDEAshQ0BbISNBGyEbNCAOtCAOYjKGVIiSM1Coj/9TUPNA9BACcoaTQKiAAhNRA0EGQ1DDQQaTQMaTQKIgg0DwxBAAk0CiIINQpC/9uJKEwWVwcBUIlJQQAIMgpMcAAiEkRIiTIJMQASRDIEIhJEMTGBCgxEiP+hKDExZyM1DiM1CjQKwDA1DDQMiP/JNAoiCMAaFzUNNA00Dgg1DjQMFjQNZzQKiP+mNAwWZzQKMTEMQQAJNAoiCDUKQv/FNA6BkE4SREIANTIJMQASRDIEIhJEsSSyEDIKshQjshI2MACyEbNCABYyBCISRDIJMQASREIACEIAA0IAAiNDIkM=",
             "clear-state-program": "BoEB",
             "creator": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
             "global-state": [
@@ -157,38 +162,57 @@
             "unit-name": "NOVALUE",
             "unit-name-b64": "Tk9WQUxVRQ=="
           }
+        },
+        {
+          "index": 92125658,
+          "params": {
+            "clawback": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
+            "creator": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
+            "decimals": 0,
+            "freeze": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
+            "manager": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
+            "reserve": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
+            "total": 1000000000,
+            "unit-name": "NOVALUE",
+            "unit-name-b64": "Tk9WQUxVRQ=="
+          }
         }
       ],
-      "min-balance": 1164000,
+      "min-balance": 1264000,
       "pending-rewards": 0,
       "reward-base": 27521,
       "rewards": 0,
-      "round": 21814611,
+      "round": 21819712,
       "status": "Offline",
       "total-apps-opted-in": 3,
-      "total-assets-opted-in": 3,
+      "total-assets-opted-in": 4,
       "total-created-apps": 2,
-      "total-created-assets": 3
+      "total-created-assets": 4
     },
     {
       "address": "D5CHP2N2ZH4DW7MJIJT3AXIIV2XYCCZHP5CZJIWRPENDEEBPV53CTELJ64",
-      "amount": 9999000,
-      "amount-without-pending-rewards": 9999000,
+      "amount": 9998000,
+      "amount-without-pending-rewards": 9998000,
       "assets": [
         {
           "amount": 20,
           "asset-id": 91697272,
           "is-frozen": false
+        },
+        {
+          "amount": 0,
+          "asset-id": 92125658,
+          "is-frozen": false
         }
       ],
-      "min-balance": 200000,
+      "min-balance": 300000,
       "pending-rewards": 0,
       "reward-base": 27521,
       "rewards": 0,
-      "round": 21814611,
+      "round": 21819712,
       "status": "Offline",
       "total-apps-opted-in": 0,
-      "total-assets-opted-in": 1,
+      "total-assets-opted-in": 2,
       "total-created-apps": 0,
       "total-created-assets": 0
     }
@@ -197,26 +221,10 @@
     {
       "id": 92065044,
       "params": {
-        "approval-program": "BiAEAQACBCYBAW4xGSMSQAAgMRkiEkABMTEZJBJAAScxGSUSQAESMRmBBRJAAQpCARs2GgCABnVwZGF0ZRJAAHI2GgCABHN3YXASQAAiNhoAgAh3aXRoZHJhdxJAABQ2GgCABW9wdGluEkAArUIA3UIA3EIA1yMoZUiJIzUKiP/1NQ80D0EAKihpKDQKFlcHAVA1EDQQZDUMNBBpNAxpNAoiCDQPDEEACTQKIgg1CkL/2IkyCTEAEkQyBCISRIj/uigxGyIJJApnIzUOIzUKNAokCyIINQs0C8AaNQw0CyIIwBoXNQ00DTQOCDUONAw0DWcoNAoWVwcBUDQMZzQLJAgxGwxBAAk0CiIINQpC/780DoGQThJEQgA1MgQiEkQyCTEAEkSxJbIQMgqyFCOyEjYwALIRs0IAFjIEIhJEMgkxABJEQgAIQgADQgACI0MiQw==",
+        "approval-program": "BiAEAQAEAiYBAW4xGSMSQAAgMRkiEkAB4zEZJRJAAdkxGSQSQAHEMRmBBRJAAbxCAc02GgCABnVwZGF0ZRJAASg2GgCABHN3YXASQABDNhoAgAh3aXRoZHJhdxJAALc2GgCABW9wdGluEkABX0IBjzIKTElBAANCAANIYIlwAEiJNAxBAANCAAQzAAiJMwASiTIEJRJEMRYiEkQzABE1DDYwADURI4gAqmQ1EjQSNAwSNBI0ERIbRDQMiP+zNQA0EYj/rDUBNAxkNQI0EWQ1A4j/rjUEIjQANAQINAAKNAI0AwqUCTQBCzUFNBFBAANCABCxIrIQMQCyBzQFsgizQgD/sSSyEDEAshQ0BbISNBGyEbNCAOtCAOYjKGVIiSM1Coj/9TUPNA9BACcoaTQKiAAhNRA0EGQ1DDQQaTQMaTQKIgg0DwxBAAk0CiIINQpC/9uJKEwWVwcBUIlJQQAIMgpMcAAiEkRIiTIJMQASRDIEIhJEMTGBCgxEiP+hKDExZyM1DiM1CjQKwDA1DDQMiP/JNAoiCMAaFzUNNA00Dgg1DjQMFjQNZzQKiP+mNAwWZzQKMTEMQQAJNAoiCDUKQv/FNA6BkE4SREIANTIJMQASRDIEIhJEsSSyEDIKshQjshI2MACyEbNCABYyBCISRDIJMQASREIACEIAA0IAAiNDIkM=",
         "clear-state-program": "BoEB",
         "creator": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
         "global-state": [
-          {
-            "key": "MA==",
-            "value": {
-              "bytes": "",
-              "type": 2,
-              "uint": 5000
-            }
-          },
-          {
-            "key": "OTE2OTcyNzI=",
-            "value": {
-              "bytes": "",
-              "type": 2,
-              "uint": 5000
-            }
-          },
           {
             "key": "bg==",
             "value": {
@@ -234,11 +242,27 @@
             }
           },
           {
+            "key": "MA==",
+            "value": {
+              "bytes": "",
+              "type": 2,
+              "uint": 5000
+            }
+          },
+          {
             "key": "bgE=",
             "value": {
               "bytes": "OTE2OTcyNzI=",
               "type": 1,
               "uint": 0
+            }
+          },
+          {
+            "key": "OTE2OTcyNzI=",
+            "value": {
+              "bytes": "",
+              "type": 2,
+              "uint": 5000
             }
           }
         ],
@@ -249,30 +273,30 @@
       }
     }
   ],
-  "latest-timestamp": 1653518237,
+  "latest-timestamp": 1653539841,
   "protocol-version": "https://github.com/algorandfoundation/specs/tree/d5ac876d7ede07367dbaa26e149aa42589aac1f7",
-  "round": 21814611,
+  "round": 21819712,
   "sources": null,
   "txns": [
     {
   "txn": {
     "apaa": [
       "dXBkYXRl",
-      "OTE2OTcyNzI=",
-      "AAAAAAAAE4g=",
-      "MA==",
-      "AAAAAAAAE4g="
+      "AAAAAAAAIyg=",
+      "AAAAAAAAAfQ=",
+      "AAAAAAAAAfQ="
     ],
     "apas": [
       91697272,
-      0
+      0,
+      92125658
     ],
     "apid": 92065044,
     "fee": 1000,
-    "fv": 21814611,
+    "fv": 21819713,
     "gh": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
-    "lv": 21815611,
-    "note": "ohTIPmNx0PM=",
+    "lv": 21820713,
+    "note": "BLmN5c/8q4U=",
     "snd": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
     "type": "appl"
   }
