@@ -24,7 +24,7 @@
       "pending-rewards": 0,
       "reward-base": 27521,
       "rewards": 0,
-      "round": 21814419,
+      "round": 21819948,
       "status": "Offline",
       "total-apps-opted-in": 1,
       "total-assets-opted-in": 1,
@@ -33,23 +33,28 @@
     },
     {
       "address": "D5CHP2N2ZH4DW7MJIJT3AXIIV2XYCCZHP5CZJIWRPENDEEBPV53CTELJ64",
-      "amount": 9999000,
-      "amount-without-pending-rewards": 9999000,
+      "amount": 9998000,
+      "amount-without-pending-rewards": 9998000,
       "assets": [
         {
           "amount": 20,
           "asset-id": 91697272,
           "is-frozen": false
+        },
+        {
+          "amount": 30,
+          "asset-id": 92125658,
+          "is-frozen": false
         }
       ],
-      "min-balance": 200000,
+      "min-balance": 300000,
       "pending-rewards": 0,
       "reward-base": 27521,
       "rewards": 0,
-      "round": 21814419,
+      "round": 21819948,
       "status": "Offline",
       "total-apps-opted-in": 0,
-      "total-assets-opted-in": 1,
+      "total-assets-opted-in": 2,
       "total-created-apps": 0,
       "total-created-assets": 0
     }
@@ -58,16 +63,40 @@
     {
       "id": 92065044,
       "params": {
-        "approval-program": "BiAEAQACBCYBAW4xGSMSQAAgMRkiEkABMTEZJBJAAScxGSUSQAESMRmBBRJAAQpCARs2GgCABnVwZGF0ZRJAAHI2GgCABHN3YXASQAAiNhoAgAh3aXRoZHJhdxJAABQ2GgCABW9wdGluEkAArUIA3UIA3EIA1yMoZUiJIzUKiP/1NQ80D0EAKihpKDQKFlcHAVA1EDQQZDUMNBBpNAxpNAoiCDQPDEEACTQKIgg1CkL/2IkyCTEAEkQyBCISRIj/uigxGyIJJApnIzUOIzUKNAokCyIINQs0C8AaNQw0CyIIwBoXNQ00DTQOCDUONAw0DWcoNAoWVwcBUDQMZzQLJAgxGwxBAAk0CiIINQpC/780DoGQThJEQgA1MgQiEkQyCTEAEkSxJbIQMgqyFCOyEjYwALIRs0IAFjIEIhJEMgkxABJEQgAIQgADQgACI0MiQw==",
+        "approval-program": "BiAEAQAEAiYBAW4xGSMSQAAgMRkiEkAB4zEZJRJAAdkxGSQSQAHEMRmBBRJAAbxCAc02GgCABnVwZGF0ZRJAASg2GgCABHN3YXASQABDNhoAgAh3aXRoZHJhdxJAALc2GgCABW9wdGluEkABX0IBjzIKTElBAANCAANIYIlwAEiJNAxBAANCAAQzAAiJMwASiTIEJRJEMRYiEkQzABE1DDYwADURI4gAqmQ1EjQSNAwSNBI0ERIbRDQMiP+zNQA0EYj/rDUBNAxkNQI0EWQ1A4j/rjUEIjQANAQINAAKNAI0AwqUCTQBCzUFNBFBAANCABCxIrIQMQCyBzQFsgizQgD/sSSyEDEAshQ0BbISNBGyEbNCAOtCAOYjKGVIiSM1Coj/9TUPNA9BACcoaTQKiAAhNRA0EGQ1DDQQaTQMaTQKIgg0DwxBAAk0CiIINQpC/9uJKEwWVwcBUIlJQQAIMgpMcAAiEkRIiTIJMQASRDIEIhJEMTGBCgxEiP+hKDExZyM1DiM1CjQKwDA1DDQMiP/JNAoiCMAaFzUNNA00Dgg1DjQMFjQNZzQKiP+mNAwWZzQKIgg1CjQKMTEMQQADQv/FNA6BkE4SREIANTIJMQASRDIEIhJEsSSyEDIKshQjshI2MACyEbNCABYyBCISRDIJMQASREIACEIAA0IAAiNDIkM=",
         "clear-state-program": "BoEB",
         "creator": "2I2IXTP67KSNJ5FQXHUJP5WZBX2JTFYEBVTBYFF3UUJ3SQKXSZ3QHZNNPY",
         "global-state": [
           {
-            "key": "OTE2OTcyNzI=",
+            "key": "AAAAAAV9udo=",
             "value": {
               "bytes": "",
               "type": 2,
-              "uint": 5000
+              "uint": 400
+            }
+          },
+          {
+            "key": "AAAAAAAAAAA=",
+            "value": {
+              "bytes": "",
+              "type": 2,
+              "uint": 600
+            }
+          },
+          {
+            "key": "bgA=",
+            "value": {
+              "bytes": "AAAAAAV3MHg=",
+              "type": 1,
+              "uint": 0
+            }
+          },
+          {
+            "key": "bgI=",
+            "value": {
+              "bytes": "AAAAAAV9udo=",
+              "type": 1,
+              "uint": 0
             }
           },
           {
@@ -75,29 +104,21 @@
             "value": {
               "bytes": "",
               "type": 2,
-              "uint": 2
+              "uint": 3
             }
           },
           {
-            "key": "bgA=",
-            "value": {
-              "bytes": "MA==",
-              "type": 1,
-              "uint": 0
-            }
-          },
-          {
-            "key": "MA==",
+            "key": "AAAAAAV3MHg=",
             "value": {
               "bytes": "",
               "type": 2,
-              "uint": 5000
+              "uint": 9000
             }
           },
           {
             "key": "bgE=",
             "value": {
-              "bytes": "OTE2OTcyNzI=",
+              "bytes": "AAAAAAAAAAA=",
               "type": 1,
               "uint": 0
             }
@@ -110,29 +131,29 @@
       }
     }
   ],
-  "latest-timestamp": 1653517423,
+  "latest-timestamp": 1653540839,
   "protocol-version": "https://github.com/algorandfoundation/specs/tree/d5ac876d7ede07367dbaa26e149aa42589aac1f7",
-  "round": 21814419,
+  "round": 21819948,
   "sources": null,
   "txns": [
     {
-  "sig": "lP4ozVdPeuve6YeeF4CSMOmAxhnyvEOmxx0hmwjAFZecjYjmDHcjOgBSLhTslGLTKAQd1z2iCedqUSAweyBLAw==",
+  "sig": "6B7ROFa3Mbbu4Qol5vLfTqGJcwrS2LMgBM7Gdf//AYmcncWLMWXYtquz13otTF2yD/MubFRou/k+ePuHD0IgAA==",
   "txn": {
     "amt": 1000000,
     "fee": 1000,
-    "fv": 21814420,
+    "fv": 21819948,
     "gen": "testnet-v1.0",
     "gh": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
-    "grp": "cA3vaPU0imB6uVWnPtFbzBVS1z0Y2p79eK0WcySHTaM=",
-    "lv": 21815420,
-    "note": "2wofWfA/LRU=",
+    "grp": "JcIDm1UaKxKNYPumVJw9XHGNMMvVQAm4U7W94paFIRA=",
+    "lv": 21820948,
+    "note": "5UXJ46NXa2Y=",
     "rcv": "D5CHP2N2ZH4DW7MJIJT3AXIIV2XYCCZHP5CZJIWRPENDEEBPV53CTELJ64",
     "snd": "NVVMVMEFGTLIVW3YL6R7ADZAWU66HUBNHI6OH264U5YKVZVPG67EMB5EWM",
     "type": "pay"
   }
 },
     {
-  "sig": "wkVYwf4k3mDBDbbosz+MdMESWE6By13+ztIP2iyonRWii+RWoS6BD9dTDJQ/iOS5Jb2wimfMfg7TLwJytgMzBA==",
+  "sig": "VetcACXyhfYqChNvo0yXRjFYuWD1dHsM/qWVcb58Zd5Tye1j3cF8u3T0u1xZ1+b8xsDyUjiWWAI9QgBrCRPGBQ==",
   "txn": {
     "apaa": [
       "c3dhcA=="
@@ -142,11 +163,11 @@
     ],
     "apid": 92065044,
     "fee": 1000,
-    "fv": 21814420,
+    "fv": 21819949,
     "gh": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=",
-    "grp": "cA3vaPU0imB6uVWnPtFbzBVS1z0Y2p79eK0WcySHTaM=",
-    "lv": 21815420,
-    "note": "0j6Un5X+Y+A=",
+    "grp": "JcIDm1UaKxKNYPumVJw9XHGNMMvVQAm4U7W94paFIRA=",
+    "lv": 21820949,
+    "note": "gc2k6yLuoTA=",
     "snd": "NVVMVMEFGTLIVW3YL6R7ADZAWU66HUBNHI6OH264U5YKVZVPG67EMB5EWM",
     "type": "appl"
   }
